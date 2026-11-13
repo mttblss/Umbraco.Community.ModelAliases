@@ -10,7 +10,7 @@
     <PackageId>Umbraco.Community.ModelAliases</PackageId>
     <Title>Model Aliases</Title>
     <Description>Generates a constants class of property aliases for every Umbraco Models Builder model, so ContentPage.Aliases.Title is "title".</Description>
-    <PackageTags>umbraco;modelsbuilder</PackageTags>
+    <PackageTags>umbraco;modelsbuilder;umbraco-marketplace</PackageTags>
     <Authors>Matt Bliss</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Matt Bliss</Copyright>
     <PackageProjectUrl>https://github.com/mttblss/Umbraco.Community.ModelAliases</PackageProjectUrl>
