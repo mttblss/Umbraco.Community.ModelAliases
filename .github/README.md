@@ -43,7 +43,7 @@ one (`Image.generated.cs` gets `Image.Aliases.gen.cs`). Your existing models are
 
 ## Installation
 
-Add the package to the Umbraco website that runs Models Builder (v17.0.0 or later):
+Add the package to the Umbraco website that runs Models Builder (any v17 release, from 17.0.0):
 
 ```bash
 dotnet add package Umbraco.Community.ModelAliases
@@ -113,7 +113,7 @@ namespace Umbraco.Cms.Web.Common.PublishedModels
   member named like its enclosing class), and two properties from different compositions that end up with the same
   name. Change one of the aliases. Umbraco reports the error the way it does for its own, in `models.err` and on
   the Models Builder dashboard.
-- **Requirements:** Umbraco 17.0.0 or later, on .NET 10.
+- **Requirements:** Umbraco 17 (any release from 17.0.0), on .NET 10. It is not yet available for Umbraco 18.
 
 ## Contributing
 

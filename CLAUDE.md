@@ -86,6 +86,11 @@ be a cycle, because that project is where the files are written.
   and `Constants.ModelsBuilder`. Only comments and formatting differ there; the one code change in the folder is
   `TextBuilder` (generic type arguments), which this package does not call. Re-run that diff, and the checks below,
   before raising the floor or claiming a later major.
+- **The dependency range is capped at `[17.0.0, 18.0.0)`** (`src/Directory.Packages.props`). The Marketplace reads
+  supported Umbraco versions from the package's NuGet dependency and treats an open-ended one as working on every
+  later major, which would claim Umbraco 18 untested. Capping means an Umbraco 18 site cannot install this until a
+  release raises the cap, after the diff and checks above have been repeated for 18. Rejected: leaving it open
+  and setting `VersionDependencyMode` to `SemVer`, which tells the Marketplace to believe the open range.
 - **The NU1902/NU1903 warnings** (`System.Security.Cryptography.Pkcs`, and `MailKit`/`MimeKit` at 17.0.0) come
   from Umbraco's own dependencies and clear when Umbraco moves. They are not pinned here. A site that installs the
   package resolves its own, newer, Umbraco.

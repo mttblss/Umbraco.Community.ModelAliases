@@ -4,7 +4,7 @@
       "Name": "Matt Bliss",
       "ImageUrl": "https://github.com/mttblss.png"
     },
-    "Category": "",
+    "Category": "Developer Tools",
     "Description": "Generates a constants class of property aliases for every Umbraco Models Builder model, so ContentPage.Aliases.Title is \"title\".",
     "LicenseTypes": [ "Free" ],
     "IssueTrackerUrl": "https://github.com/mttblss/Umbraco.Community.ModelAliases/issues",

@@ -37,7 +37,7 @@ file beside each stock `<Model>.generated.cs`. Your existing models are not edit
 
 ## Installation
 
-Add the package to the Umbraco website that runs Models Builder (v17.0.0 or later):
+Add the package to the Umbraco website that runs Models Builder (any v17 release, from 17.0.0):
 
 `dotnet add package Umbraco.Community.ModelAliases`
 
@@ -63,4 +63,4 @@ The constant is named after the property, so alias `pageTitle` becomes `Aliases.
 - Do not rename the files to end `.generated.cs`: Umbraco deletes any of those it did not write itself.
 - A property named `Aliases`, or two properties that end up with the same name, stops generation with a clear
   message. Change one of the aliases.
-- Requires Umbraco 17.0.0 or later, on .NET 10.
+- Requires Umbraco 17 (any release from 17.0.0), on .NET 10. It is not yet available for Umbraco 18.
