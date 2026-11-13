@@ -1,0 +1,14 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
+    "AuthorDetails": {
+      "Name": "Matt Bliss",
+      "ImageUrl": "https://github.com/mttblss.png"
+    },
+    "Category": "",
+    "Description": "Generates a constants class of property aliases for every Umbraco Models Builder model, so ContentPage.Aliases.Title is \"title\".",
+    "LicenseTypes": [ "Free" ],
+    "IssueTrackerUrl": "https://github.com/mttblss/Umbraco.Community.ModelAliases/issues",
+    "PackageType": "Package",
+    "Tags": [],
+    "Title": "Model Aliases"
+  }
